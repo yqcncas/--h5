@@ -1,0 +1,188 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "爱满人间·健康行"
+			}
+		},
+		{
+			"path": "pages/MyInfo/MyInfo",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/MyInfluence/MyInfluence",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "我的影响力"
+			}
+		},
+		{
+			"path": "pages/MyCard/MyCard",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "我的打卡"
+			}
+		},
+		{
+			"path": "pages/MyRemind/MyRemind",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "我的提醒"
+			}
+		},
+		{
+			"path": "pages/MyAi/MyAi",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "我的AI"
+			}
+		},
+		{
+			"path":"pages/HealthInformation/HealthInformation",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "健康资料与服务"
+			}
+		},
+		{
+			"path":"pages/MyCareCard/MyCareCard",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "我的关爱卡"
+			}
+		},
+		{
+			"path":"pages/MySetting/MySetting",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path":"pages/FeedBack/FeedBack",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+		{
+			"path":"pages/ChangePwd/ChangePwd",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path":"pages/My/My",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path":"pages/RichText/RichText",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path":"pages/BigMarket/BigMarket",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "大市场"
+			}
+		},
+		{
+			"path":"pages/ShopDetail/ShopDetail",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path":"pages/ShopBuy/ShopBuy",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "立即购买"
+			}
+		},
+		{
+			"path":"pages/EditAddress/EditAddress",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "新增收货地址"
+			}
+		},
+		{
+			"path":"pages/Address/Address",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path":"pages/CareCard/CareCard",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "购买"
+			}
+		},
+		{
+			"path":"pages/Order/Order",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "所有订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/OrderDetail/OrderDetail",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path":"pages/MyMoney/MyMoney",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "天天奖钱包"
+			}
+		},
+		{
+			"path":"pages/Login/Login",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path":"pages/Register/Register",
+			"style": {
+				"titleNView": "false",
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path":"pages/WebViewPage/WebViewPage",
+			"style": {
+				"titleNView": "false"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "健康宝",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}
